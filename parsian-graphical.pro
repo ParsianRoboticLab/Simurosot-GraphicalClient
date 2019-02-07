@@ -13,7 +13,6 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
     gltext.cpp \
     soccerview.cpp \
     field_default_constants.cpp \
@@ -21,7 +20,7 @@ SOURCES += main.cpp\
     packet.cpp \
     drawpacket.cpp
 
-HEADERS  += mainwindow.h \
+HEADERS  += \
     gltext.h \
     soccerview.h \
     timer.h \

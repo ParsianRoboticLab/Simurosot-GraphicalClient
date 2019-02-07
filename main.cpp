@@ -1,4 +1,3 @@
-#include "mainwindow.h"
 #include <QApplication>
 #include "drawpacket.h"
 #include "packet.h"
@@ -63,8 +62,6 @@ public:
 int main(int argc, char **argv)
 {
     QApplication app(argc, argv);
-    MainWindow w;
-    w.show();
     view = new GLSoccerView();
     view->show();
     MyThread thread;
